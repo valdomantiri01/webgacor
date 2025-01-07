@@ -1,0 +1,13 @@
+/* Menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menetapkan ukuran video fullscreen */
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
